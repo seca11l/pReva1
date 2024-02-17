@@ -1,0 +1,47 @@
+/* public/css/menu.css */
+#sideMenu {
+    position: fixed;
+    top: 60px;
+    left: -200px;
+    width: 200px;
+    max-height: calc(100% - 60px); /* Ajusta la altura máxima según sea necesario */
+    overflow-y: auto; /* Agrega una barra de desplazamiento vertical si es necesario */
+    background-color: #2c3e50;
+    transition: left 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+#sideMenu.hidden {
+    left: -200px;
+}
+
+#sideMenu.show {
+    left: 20px; /* Ajusta la distancia desde el borde izquierdo según sea necesario */
+}
+
+#toggleMenu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    color: #ecf0f1;
+    font-size: 20px;
+    z-index: 1001;
+}
+
+#sideMenu a {
+    display: block;
+    padding: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+#sideMenu a:hover {
+    background-color: #34495e;
+}
+
+#sideMenu a.active {
+    background-color: #1abc9c;
+}

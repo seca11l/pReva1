@@ -1,0 +1,91 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* Fondo general verde grisáceo */
+    margin: 0;
+}
+
+.card {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1); /* Sombras más suaves */
+    border-radius: 15px; /* Bordes redondos */
+    overflow: hidden;
+}
+
+.login-container {
+    border-radius: 15px; /* Bordes redondos para el contenedor principal */
+}
+
+.login-header {
+    background-color: #28C7AF; /* Verde azulado para el fondo del encabezado */
+    border-bottom: 2px solid #3B9487; /* Borde verde más oscuro */
+    border-radius: 15px 15px 0 0; /* Bordes redondos para la parte superior del encabezado */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra más suave en la parte inferior del encabezado */
+}
+
+.login-header h1 {
+    color: #00FAD4;
+    font-size: 2.8rem; /* Tamaño de fuente más grande */
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra más suave en el texto del encabezado */
+}
+
+.card-body {
+    padding: 4rem;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 1.8rem; /* Tamaño de fuente más grande */
+    color: #293331; /* Verde grisáceo más oscuro para el texto */
+}
+
+.form-outline {
+    margin-bottom: 2rem;
+}
+
+.form-label {
+    color: #3B9487; /* Verde más oscuro para el texto del label */
+}
+
+.form-control {
+    border: 2px solid #3B9487; /* Borde más grueso en verde más oscuro */
+    border-radius: 10px; /* Bordes redondos para los campos de entrada */
+    transition: border-color 0.3s ease-in-out;
+    font-size: 1.4rem; /* Tamaño de fuente más grande */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+}
+
+.form-control:focus {
+    border-color: #28C7AF; /* Verde azulado al tener el foco */
+}
+
+.btn-dark {
+    background-color: #28C7AF; /* Verde azulado para el fondo del botón de inicio de sesión */
+    color: #00FAD4; /* Color del texto del botón */
+    border-radius: 10px; /* Bordes redondos para el botón */
+    transition: background-color 0.3s ease-in-out;
+    font-size: 1.4rem; /* Tamaño de fuente más grande */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.btn-dark:hover {
+    background-color: #3B9487; /* Verde más oscuro al pasar el ratón por encima */
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón por encima */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada al pasar el ratón por encima */
+}
+
+.form-check-input {
+    background-color: #28C7AF; /* Verde azulado para el fondo del checkbox */
+}
+
+.form-check-label {
+    color: #293331; /* Verde grisáceo más oscuro para el texto del checkbox */
+    font-size: 1.4rem; /* Tamaño de fuente más grande */
+}
+
+.btn-link {
+    color: #28C7AF; /* Verde azulado para el enlace '¿Olvidó su contraseña?' */
+    font-size: 1.4rem; /* Tamaño de fuente más grande */
+    text-decoration: underline; /* Subrayado en el enlace */
+}
+
+/* Más estilos y ajustes según sea necesario */

@@ -1,0 +1,33 @@
+#dataTable_wrapper .dataTable thead th,
+#dataTable_wrapper .dataTable thead td {
+    border: none;
+    background-color: #f2f2f2;
+    /* Color de fondo gris claro */
+    border-radius: 0;
+    /* Esquinas no redondas */
+}
+
+#dataTable_filter input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: #f2f2f2;
+    /* Color de fondo gris claro para el campo de filtro */
+}
+
+.bg-teal {
+    background-color: #4FD1C5;
+}
+
+.text-teal {
+    color: #4FD1C5;
+}
+
+.btn-teal {
+    background-color: #ffffff;
+    color: #0f0f0f;
+}
+
+.btn-teal:hover {
+    background-color: #3CB3A6;
+}

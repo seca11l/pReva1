@@ -1,0 +1,105 @@
+/* Estilos generales para el formulario */
+.formulario-estilos {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f8f9fa; /* Gris claro */
+    color: #343a40; /* Negro */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Efecto de sombra y escala al pasar el ratón sobre el formulario */
+.formulario-estilos:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+/* Estilos para las etiquetas de los campos */
+.formulario-estilos label {
+    font-weight: bold;
+    color: #495057; /* Gris oscuro */
+    margin-bottom: 8px;
+}
+
+/* Estilos para los campos de entrada */
+.formulario-estilos .form-control {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Gris */
+    background-color: #fff; /* Blanco */
+    color: #495057; /* Gris oscuro */
+    padding: 10px;
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Cambiar el color del campo al enfocarse */
+.formulario-estilos .form-control:focus {
+    border-color: #4caf50; /* Verde */
+    background-color: #f0f9eb; /* Verde claro */
+    color: #495057; /* Gris oscuro */
+}
+
+/* Estilos para los selects */
+.formulario-estilos select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ced4da; /* Gris */
+    background-color: #fff; /* Blanco */
+    color: #495057; /* Gris oscuro */
+    transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Cambiar el color del select al enfocarse */
+.formulario-estilos select:focus {
+    border-color: #4caf50; /* Verde */
+    background-color: #f0f9eb; /* Verde claro */
+    color: #495057; /* Gris oscuro */
+}
+
+/* Estilos para los mensajes de error */
+.formulario-estilos .text-danger {
+    color: #dc3545; /* Rojo oscuro */
+}
+
+/* Estilos para los botones */
+.formulario-estilos .btn {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.formulario-estilos .btn-success {
+    background-color: #28a745; /* Verde oscuro */
+    border-color: #28a745;
+    color: #fff; /* Blanco */
+}
+
+.formulario-estilos .btn-danger {
+    background-color: #dc3545; /* Rojo oscuro */
+    border-color: #dc3545;
+    color: #fff; /* Blanco */
+}
+
+/* Estilos para el contenedor principal */
+.formulario-estilos .container {
+    text-align: center;
+}
+
+/* Estilos para el título del formulario */
+.formulario-estilos h2 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    color: #495057; /* Gris oscuro */
+}
+
+/* Ajustes para la disposición de los elementos en pantallas pequeñas */
+@media (max-width: 767px) {
+    .formulario-estilos {
+        padding: 15px;
+    }
+    .formulario-estilos .btn {
+        width: 100%;
+    }
+}
